@@ -1,0 +1,64 @@
+h1, h2, h3, h4, h5, h6 {
+    color: crimson;
+}
+
+.small-heading {
+    /* 用于指定如何将元素的文本大写的属性 */
+    text-transform: uppercase;
+}
+
+#quote-by-author {
+    background: lightgray;
+    padding: 10px;
+    line-height: 1.75;
+}
+
+article p {
+    line-height: 2;
+}
+
+.list > li {
+    color: crimson;
+}
+
+.list > li ul {
+    color: initial;
+}
+
+header + p {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+header ~ img {
+    border: 4px solid crimson;
+}
+
+a:link {
+    color: #1D70B8;
+}
+
+a:visited {
+    color: #4C2C92;
+}
+
+a:hover {
+    color: #003078;
+}
+
+a:focus {
+    outline: solid 1px crimson;
+}
+
+header + p::first-letter {
+    color: crimson;
+    font-style: italic;
+}
+
+[lang="it"]::before {
+    content: "🇮🇹";
+}
+
+* {
+    font-family: sans-serif;
+}
